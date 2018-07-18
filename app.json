@@ -1,0 +1,28 @@
+{
+  "name": "app-name",
+  "scripts": {},
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "environments": {
+    "test": {
+      "scripts": {
+        "test-setup": "./ci/setup.sh",
+        "test": "./ci/tests.sh"
+      }
+    }
+  },
+  "addons": [
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/exec"
+    },
+    {
+      "url": "heroku/go"
+    }
+  ]
+}

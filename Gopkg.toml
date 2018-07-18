@@ -1,0 +1,15 @@
+[metadata.heroku]
+  root-package = "github.com/organization/repo-name"
+  go-version = "1.10.3"
+
+[[constraint]]
+  name = "github.com/labstack/echo"
+  version = "3.3.5"
+
+[[constraint]]
+  name = "github.com/spf13/cobra"
+  version = "0.0.3"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/heroku/x"

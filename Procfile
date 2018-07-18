@@ -1,0 +1,1 @@
+web: binary-name start

@@ -1,0 +1,3 @@
+#!/bin/bash
+echo -- tests --
+cd .. && go test -v -cover ./...
